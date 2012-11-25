@@ -1,0 +1,206 @@
+@font-face {
+	font-family: 'SansNarrow';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		url("http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff")
+		format('woff');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'SansNarrow', Helvetica, sans-serif;
+	font-size: 18px;
+	min-height: 100%;
+	height: 100%;
+	letter-spacing: .05em;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+h1 {
+	color: #000052;
+	position: fixed;
+	margin-top: -50px;
+}
+
+.container {
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+}
+
+.content {
+	min-height: 100%;
+	height: 100%;
+	padding: 50px 50px 0 50px;
+	text-align: justify;
+}
+
+.cream {
+	background: #F7F7F7;
+}
+
+.orange {
+	background: #FF9900;
+}
+
+.rose {
+	background: #FE57A1;
+}
+
+.blue {
+	background: #00BFFF;
+}
+
+.floating-menu {
+	float: right;
+	margin-top: 20px;
+	display: block;
+	position: fixed;
+	top: 41px;
+	left: auto;
+	right: 23px;
+	background: #F7F5F3; /* Fallback */
+	background: rgba(256, 256, 256, 1); /* Change the Tranparency */
+	/* background: transparent; */ /*Overrides the bg to transparent */
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #05C4FF;
+}
+
+/* Comment while using horizontal */
+.floating-menuV {
+	float: right;
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: auto;
+	right: 23px;
+	background: #F7F5F3; /* Fallback */
+	background: rgba(256, 256, 256, 1); /* Change the Tranparency */
+	/* background: transparent; */ /*Overrides the bg to transparent */
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #05C4FF;
+}
+
+.floating-menu  a {
+	font-size: 19px;
+}
+
+nav.floating-menu h3 {
+	display: block !important;
+	margin: 0 0.5em;
+}
+
+nav.floating-menu a {
+	margin: 0.5em;
+}
+/* Comment while using vertical */
+nav.floating-menu a.hor {
+	display: block;
+}
+
+.button {
+	text-align: center;
+	border-radius: 99px;
+	-moz-border-radius: 99px;
+	-webkit-border-radius: 99px;
+	background: #FF0000;
+	color: #fff;
+	border: 3px #fff solid;
+	background-color: #e7676d;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e7676d),
+		to(#b7070a) ); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #e7676d, #b7070a);
+	/* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image: -moz-linear-gradient(top, #e7676d, #b7070a);
+	/* FF3.6 */
+	background-image: -ms-linear-gradient(top, #e7676d, #b7070a);
+	/* IE10 */
+	background-image: -o-linear-gradient(top, #e7676d, #b7070a);
+	/* Opera 11.10+ */
+	background-image: linear-gradient(top, #e7676d, #b7070a);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#e7676d',
+		EndColorStr='#b7070a' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#e7676d, endColorstr=#b7070a)";
+	-webkit-box-shadow: 0px 2px 4px #000000; /* Saf3-4 */
+	-moz-box-shadow: 0px 2px 4px #000000; /* FF3.5 - 3.6 */
+	box-shadow: 0px 2px 4px #000000;
+	/* Opera 10.5, IE9, FF4+, Chrome 10+ */
+	display: inline-block;
+	
+	/* Main Adjustments */
+	padding: 5px 10px;
+	margin: 5px 10px;
+	/* Main Adjustments */
+	
+	
+	transition: all .8s ease;
+	-webkit-transition: all .8s ease !important;
+	-moz-transition: all .8s ease;
+	-o-transition: all .8s ease;
+	-ms-transition: all .8s ease;
+}
+
+.button:hover {
+	opacity: 1;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease !important;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	background: #9FC500;
+}
+
+footer {
+	margin-top: 400px;
+	background-color: #414141;
+	border-radius: 10px 10px 10px 10px;
+	color: #FFFFFF;
+	height: 45px;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 10px;
+	letter-spacing: 1.2px;
+	text-decoration: none;
+	bottom: 0px;
+}
+
+footer a {
+	color: #00BFFF;
+	text-decoration: none;
+}
+
+footer a:hover {
+	border-bottom: 2px dashed #FFF;
+}
