@@ -9,7 +9,9 @@ About:
    * Can be easily Customised.<br>
    * jQuery for Easing Effect
 	  
-	  
+Demo : &nbsp; [Horizontal Menu](http://demo.venomvendor.com/pure-css-menu/) &nbsp; &nbsp; &nbsp; [Vertical Menu](http://demo.venomvendor.com/pure-css-menu/index2.html) 
+----
+
 Usage:
 ======
 CSS3
